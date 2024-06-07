@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 id="site-title">Metric/Imperial Unit Conversion</h1>
+            <input type="number" name="unit-input" id="unit-input">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div id="main">
+            <div class="convert-container">
+                <h2 class="convert-title">Length (Meter/Feet)</h2>
+                <p class="conversion-style" id="length-convert"></p>
+            </div>
+            <div class="convert-container">
+                <h2 class="convert-title">Volume (Liters/Gallons)</h2>
+                <p class="conversion-style" id="volume-convert"></p>
+            </div>
+            <div class="convert-container">
+                <h2 class="convert-title">Mass (Kilograms/Pounds)</h2>
+                <p class="conversion-style" id="mass-convert"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
